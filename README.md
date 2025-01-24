@@ -7,6 +7,8 @@ This Cli base-on [Ruff](https://github.com/astral-sh/ruff) [Parser](https://gith
 ---
 
 一个基于 Ruff 里的 Parser 和 AST 模块构建出来的简单 CLI 程序
+
 用于判断传入的字符串是否是 Python 里的 Expr 且输出其类型
-若是传入错误的字符串，则输出 `error`
+
+若是传入错误的字符串，则程序会输出 `error`
 

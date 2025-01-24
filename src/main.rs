@@ -1,4 +1,4 @@
-use std::{path::PathBuf, thread::panicking};
+// use std::{path::PathBuf, thread::panicking};
 
 use clap::Parser;
 use ruff_python_ast::Expr;
