@@ -1,0 +1,13 @@
+[package]
+name = "parser_expr"
+version.workspace = true
+edition.workspace = true
+about.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+keywords.workspace = true
+
+[dependencies]
+ruff_python_ast = {workspace = true}
+ruff_python_parser ={ workspace = true}

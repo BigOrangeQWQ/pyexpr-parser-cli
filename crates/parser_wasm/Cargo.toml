@@ -1,0 +1,16 @@
+[package]
+name = "parser_wasm"
+version.workspace = true
+edition.workspace = true
+about.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+keywords.workspace = true
+
+[dependencies]
+parser_expr = {workspace = true}
+wasm-bindgen = { workspace = true }
+
+[lib]
+crate-type = ["cdylib"]
